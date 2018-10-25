@@ -126,7 +126,7 @@ Once in the integrations hub, click on the "New Integration" button. From the li
 
 The next step is configuring the Webhook. Fill out the following fields:
 - **Event Name**: The name of the event that will trigger publishing an event InfluxDB. This is the name of your event when you call `Particle.publish()` in your firmware.
-- **URL**: The url or IP address of your Telegraf server. Don't forget the `/particle` portion of the URL!
+- **URL**: The url or IP address of your Telegraf server. Don't forget the '1619' Telegraf port number and the `/particle` portion of the URL!
 - **Request Type**: The Telegraf server is expecting a `POST` so make sure that's selected.
 - **Request Format**: The Default is `Web Form` but we will be sending a JSON, so make sure that you change this to `JSON`.
 
